@@ -3,13 +3,49 @@ body {
   font-family: "Roboto";
 }
 
+main {
+  height: 1325px;
+  background-color: #f6f6f6;
+}
+
+footer {
+  height: 200px;
+  background-color: #353535;
+}
+
 .fa-solid {
-  width: 14px;
-  height: 30px;
   font-size: 20px;
+  text-align: center;
+}
+
+.fa-stack {
+  width: 25px;
+  height: 22px;
+  text-align: center;
 }
 
 .fa-location-dot {
+  width: 100%;
+}
+
+.fa-mobile-screen-button {
+  width: 80px;
+  height: 20px;
+}
+
+.fa-ellipsis-vertical {
+  width: 0;
+}
+
+.fa-bars {
+  width: 20px;
+}
+
+.fa-store {
+  width: 80px;
+}
+
+.fa-heart {
   width: 100%;
 }
 
@@ -86,31 +122,100 @@ body {
 }
 
 .functioning_text {
-  width: 100%;
+  width: 50%;
   padding-left: 20px;
 }
 
 .container_btn {
-  height: 206px;
+  height: 275px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .btn_functioning {
-  width: 81%;
-  height: 59px;
+  width: 85%;
+  height: 70px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
   flex-wrap: wrap;
   align-content: center;
   font-size: 16px;
   font-weight: 700;
   border: none;
   border-radius: 12px;
+  gap: 25px;
+  padding: 0;
+}
+
+.btn_one {
+  align-items: center;
+}
+
+.btn_two {
+  align-items: center;
+}
+
+.btn_three {
+  align-items: center;
+}
+
+.main_title {
+  width: 50%;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.restaurants_cards {
+  width: 100%;
+  height: 67%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card {
+  width: 90%;
+  height: 270px;
+  background-color: white;
+  border-radius: 15px;
 }
 
 .img_restaurant {
-  width: 350px;
-  height: 230px;
+  width: 100%;
+  height: 180px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card_info {
+  width: 100%;
+}
+
+.card_title {
+  width: 83%;
+  margin: 15px 0px 0px 15px;
+  font-size: 18px;
+}
+
+.card_subtitle {
+  width: 100%;
+  height: 5px;
+  margin: 5px 0px 0px 15px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer_info {
+  color: white;
+  font-size: 15px;
+}
+
+.footer_title {
+  width: 50%;
+  font-family: "Shrikhand";
+  color: white;
+  font-size: 17px;
+  padding-top: 20px;
+  margin: 0px 0px 0px 20px;
 }/*# sourceMappingURL=index.css.map */
