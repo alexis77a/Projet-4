@@ -14,7 +14,7 @@ footer {
 }
 
 .fa-solid {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -22,6 +22,7 @@ footer {
   width: 25px;
   height: 22px;
   text-align: center;
+  color: #7e7e7e;
 }
 
 .fa-location-dot {
@@ -29,24 +30,65 @@ footer {
 }
 
 .fa-mobile-screen-button {
-  width: 80px;
+  width: 20%;
   height: 20px;
+  font-size: 25px;
+  color: #7e7e7e;
+}
+
+.fa-1 {
+  font-size: 15px;
+}
+
+.circle_one {
+  width: 10%;
 }
 
 .fa-ellipsis-vertical {
   width: 0;
+  font-size: 20px;
 }
 
 .fa-bars {
   width: 20px;
+  font-size: 20px;
+}
+
+.fa-2 {
+  font-size: 15px;
 }
 
 .fa-store {
   width: 80px;
+  font-size: 23px;
+  color: #9356DC;
+}
+
+.fa-3 {
+  font-size: 15px;
+}
+
+.fa-circle {
+  font-size: 15px;
 }
 
 .fa-heart {
-  width: 100%;
+  width: 80%;
+  height: 31px;
+  font-size: 31px;
+  text-align: right;
+  position: absolute;
+  padding-top: 23px;
+}
+
+.fa-utensils {
+  width: 25px;
+  text-align: start;
+}
+
+.fa-handshake-angle {
+  width: 25px;
+  text-align: start;
 }
 
 .logo {
@@ -57,7 +99,7 @@ footer {
 }
 
 .img_logo {
-  width: 50%;
+  width: 35%;
 }
 
 .location {
@@ -127,19 +169,19 @@ footer {
 }
 
 .container_btn {
-  height: 275px;
+  height: 425px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
 }
 
 .btn_functioning {
   width: 85%;
   height: 70px;
   display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  align-content: center;
+  justify-content: space-evenly;
   font-size: 16px;
   font-weight: 700;
   border: none;
@@ -190,25 +232,22 @@ footer {
 
 .card_info {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card_title {
-  width: 83%;
+  width: 45%;
   margin: 15px 0px 0px 15px;
   font-size: 18px;
 }
 
 .card_subtitle {
-  width: 100%;
-  height: 5px;
+  width: 50%;
+  height: 22px;
   margin: 5px 0px 0px 15px;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 300;
-}
-
-.footer_info {
-  color: white;
-  font-size: 15px;
 }
 
 .footer_title {
@@ -218,4 +257,15 @@ footer {
   font-size: 17px;
   padding-top: 20px;
   margin: 0px 0px 0px 20px;
+}
+
+.footer_info {
+  color: white;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.footer_info__link {
+  color: white;
+  text-decoration: none;
 }/*# sourceMappingURL=index.css.map */

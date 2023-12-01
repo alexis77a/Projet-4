@@ -11,6 +11,9 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 	</head>
 	<body>
+		<div class="loader-container">
+			<div class="loader"></div>
+		  </div>
 		<header>
 			<div class="logo">
 				<img class="img_logo" src="./assets/images/ohmyfood@2x.svg">
@@ -27,12 +30,25 @@
 		<section class="functioning">
 			<h1 class="functioning_text">Fonctionnement</h1>
 			<div class="container_btn">
+			<span class="fa-stack fa-2x circle_one">
+				<i class="fa-solid fa-circle"></i>
+				<i class="fa-solid fa-1"></i>
+			</span>	
 			<button class="btn_functioning btn_one">
 				<i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</button>
+			<span class="fa-stack fa-2x circle_three">
+				<i class="fa-solid fa-circle "></i>
+				<i class="fa-solid fa-2"></i>
+			</span>
 			<button class="btn_functioning btn_two">
-				<span class="fa-stack fa-2x">
+			<span class="fa-stack fa-2x">
 				<i class="fa-solid fa-ellipsis-vertical"></i>
-				<i class="fa-solid fa-bars"></i></span>Composez votre menu</button>
+				<i class="fa-solid fa-bars"></i>
+			</span>Composez votre menu</button>
+			<span class="fa-stack fa-2x circle_three">
+				<i class="fa-solid fa-circle"></i>
+				<i class="fa-solid fa-3"></i>
+			</span>	
 			<button class="btn_functioning btn_three">
 				<i class="fa-solid fa-store"></i>Dégustez au restaurant</button>
 			</div>
@@ -44,8 +60,8 @@
 					<img class="img_restaurant" src="./assets/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût">
 					<div class="card_info">
 						<h1 class="card_title">La palette du goût</h1>
-						<p class="card_subtitle">Ménilmontant</p>
 						<i class="fa-regular fa-heart"></i>
+						<p class="card_subtitle">Ménilmontant</p>
 					</div>
 				</div>
 				<div class="card card_two">
@@ -77,10 +93,10 @@
 		<footer>
 				<h1 class="footer_title">ohmyfood</h1>
 				<div class="footer_info">
-				<p><i class="fa-solid fa-utensils"></i>Proposer un restaurant</p>
-				<p><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</p>
-				<p>Mentions légales</p>
-				<p>Contact</p>
+				<a class="footer_info__link" href="#" alt=""><p><i class="fa-solid fa-utensils"></i>Proposer un restaurant</p></a>
+				<a class="footer_info__link" href="#" alt=""><p><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</p></a>
+				<a class="footer_info__link" href="#" alt=""><p>Mentions légales</p></a>
+				<a class="footer_info__link" href="#" alt=""><p>Contact</p></a>
 			</div>
 		</footer>
 	</body>

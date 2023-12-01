@@ -10,34 +10,90 @@ footer
     height: 200px
     background-color: #353535
 .fa-solid
-    font-size: 20px
+    font-size: 15px
     text-align: center
 
 .fa-stack
     width: 25px
     height: 22px
     text-align: center
+    color: #7e7e7e
 
 .fa-location-dot    
     width: 100%
     
 
 .fa-mobile-screen-button
-    width: 80px
+    width: 20%
     height: 20px
-
+    font-size: 25px
+    color: #7e7e7e
+.fa-1
+    font-size: 15px
+.circle_one
+    width: 10%
 .fa-ellipsis-vertical
     width: 0
+    font-size: 20px
 
 .fa-bars
     width: 20px
-
+    font-size: 20px
+.fa-2
+    font-size: 15px
 .fa-store
     width: 80px
+    font-size: 23px
+    color: #9356DC
+.fa-3
+    font-size: 15px
+.fa-circle
+    font-size: 15px
 
 .fa-heart
-    width: 100%
-    
+    width: 80%
+    height: 31px
+    font-size: 31px
+    text-align: right
+    position: absolute
+    padding-top: 23px
+
+.fa-utensils
+    width: 25px
+    text-align: start
+
+.fa-handshake-angle
+    width: 25px
+    text-align: start
+
+.loader-container 
+  text-align: center
+
+
+.loader 
+  border: 8px solid #f3f3f3
+  border-top: 8px solid #3498db
+  border-radius: 50%
+  width: 50px
+  height: 50px
+  animation: spin 2s linear forwards
+
+
+@keyframes spin 
+  0%  transform: rotate(0deg)
+  100%  transform: rotate(360deg) 
+
+.loader-container 
+  display: none
+
+
+body.loading .loader-container 
+  display: block
+
+
+body.loaded .loader-container 
+  animation: fadeOut 1s ease-in-out 2s forwards
+
 .logo 
     width: 100%
     height: 65px
@@ -45,7 +101,7 @@ footer
     justify-content: center
     
 .img_logo
-    width: 50%
+    width: 35%
    
 .location
     width: 100%
@@ -106,18 +162,18 @@ footer
     padding-left: 20px
 
 .container_btn
-    height: 275px
+    height: 425px
     display: flex
     justify-content: center
     flex-wrap: wrap
+    flex-direction: column
+    align-content: center
     
 .btn_functioning 
     width: 85%
     height: 70px
     display: flex
-    justify-content: start
-    flex-wrap: wrap
-    align-content: center
+    justify-content: space-evenly
     font-size: 16px
     font-weight: 700
     border: none
@@ -163,22 +219,20 @@ footer
 
 .card_info
     width: 100%
+    display: flex
+    flex-wrap: wrap
 
 .card_title
-    width: 83%
+    width: 45%
     margin: 15px 0px 0px 15px   
     font-size: 18px
 
 .card_subtitle
-    width: 100%
-    height: 5px 
+    width: 50%
+    height: 22px 
     margin: 5px 0px 0px 15px
-    font-size: 14px
+    font-size: 17px
     font-weight: 300
-
-.footer_info
-    color: white
-    font-size: 15px
 
 .footer_title
     width: 50%
@@ -187,4 +241,12 @@ footer
     font-size: 17px
     padding-top: 20px
     margin: 0px 0px 0px 20px
-    
+
+.footer_info
+    color: white
+    font-size: 15px
+    padding-left: 20px
+
+.footer_info__link
+    color: white
+    text-decoration: none
