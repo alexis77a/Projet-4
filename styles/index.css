@@ -91,6 +91,57 @@ footer {
   text-align: start;
 }
 
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear forwards;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loader_container {
+  display: none;
+  text-align: center;
+}
+
+.loader_container:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 9998;
+  animation: hideContent 2s ease-out forwards;
+}
+
+@keyframes hideContent {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes showContent {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
 .logo {
   width: 100%;
   height: 65px;
@@ -268,4 +319,58 @@ footer {
 .footer_info__link {
   color: white;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 1023px) {
+  main {
+    height: 725px;
+  }
+  .fa-location-dot {
+    width: 40px;
+  }
+  .fa-heart {
+    width: 100%;
+  }
+  .img_logo {
+    width: 15%;
+  }
+  .location_text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .nav_title {
+    width: 100%;
+    font-size: 35px;
+  }
+  .nav_subtitle {
+    width: 100%;
+    margin: 0;
+  }
+  .functioning_text {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+  .container_btn {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+  }
+  .btn_functioning {
+    width: 25%;
+  }
+  .main_title {
+    width: 22%;
+    display: flex;
+    justify-content: center;
+  }
+  .restaurants_cards {
+    width: 100%;
+    height: 50%;
+  }
+  .card {
+    width: 40%;
+  }
 }/*# sourceMappingURL=index.css.map */
