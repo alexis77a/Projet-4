@@ -379,7 +379,7 @@ img {
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-left: 76%;
+  margin-left: 68%;
   background-color: #99e2d0;
   color: #008766;
   font-size: 15px;
@@ -556,6 +556,9 @@ img {
   }
   .card {
     width: 85%;
+  }
+  .text_card_new {
+    margin-left: 78%;
   }
   footer {
     height: 100px;
